@@ -1,0 +1,19 @@
+void main() {
+  // Creating an instance of the Person class
+  Person person1 = Person('Alice', 25);
+  
+  // Calling the display method
+  person1.display();
+}
+class Person {
+  String name;
+  int age;
+
+  // Constructor
+  Person(this.name, this.age);
+
+  // Method to display person details
+  void display() {
+    print('Name: $name, Age: $age');
+  }
+}
