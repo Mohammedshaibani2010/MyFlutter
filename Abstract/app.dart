@@ -1,8 +1,17 @@
-import 'jaib.dart';
 
-void main()
-{
-  Jaib j =Jaib();
-  j.login("Mohammed", "12345");
+import '../Abstract/user.dart';
+import 'admin.dart';
+import 'client.dart';
+
+void main(){
+
+Admin a=Admin();
+Client c=Client();
+User u=User();
+
+}
+
+
+
 
 }
